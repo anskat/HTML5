@@ -1,15 +1,19 @@
 <snippet>
-	<content><![CDATA[<!DOCTYPE hyml>
+    <content><![CDATA[<!doctype html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>$1</title>
-</head>
-<body>
-	$2
-</body>
-</html>
-]]></content>
-<tabTrigger>html5</tabTrigger>
-<scope>text.html</scope>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="$1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>${2:Untitled}</title>
+        <link rel="stylesheet" href="css/style.css">
+    	<script src="js/main.js"></script> 
+    </head>
+    <body>
+        $3
+    </body>
+</html>]]></content>
+    <tabTrigger>html5</tabTrigger>
+    <description>HTML5 doctype</description>
+    <scope>text.html5</scope>
 </snippet>
