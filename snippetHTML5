@@ -15,5 +15,5 @@
 </html>]]></content>
     <tabTrigger>html5</tabTrigger>
     <description>HTML5 doctype</description>
-    <scope>text.html5</scope>
+    <scope>text.html</scope>
 </snippet>
